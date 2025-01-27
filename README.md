@@ -36,3 +36,17 @@ Add the following dependency to your `build.gradle`:
 
 ```gradle
 implementation 'com.salmonitoring:salmonitoring-springboot:1.0.0'
+
+## Configuration
+
+To configure SalMonitoring, modify your `application.properties` or `application.yml` file.
+
+### Example (`application.properties`):
+
+```properties
+salmonitoring.enabled=true
+salmonitoring.log.level=INFO
+salmonitoring.monitoring.level=METHOD
+salmonitoring.cpu.threshold=80
+salmonitoring.memory.threshold=75
+
